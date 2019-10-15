@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(../img/timg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* 背景图片相对可视窗口固定，所以随页码滚动背景不动 */
+}
+.container{
+    margin: 30px;
+}
+#cavs{
+    border: 1px solid orange;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+ul{
+    width: 700px;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin-left: 35px;
+}
+ul li input{
+    background: orange;
+    color: #000000;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+ul li input:hover{
+    border: 1px solid black;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+}
